@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "971681475196",
+    "project_id": "login-from-with-tandc",
+    "storage_bucket": "login-from-with-tandc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971681475196:android:715bbd1ca1f3dc799a37f9",
+        "android_client_info": {
+          "package_name": "com.example.loginfromwithtc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvWtU7VHiAORSBBegG4JmaAUZuRDwUBdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

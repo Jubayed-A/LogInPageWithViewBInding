@@ -12,11 +12,12 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="270dp"
         app:hintTextColor="@color/black"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/roundshape"
+        app:startIconDrawable="@drawable/person"
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -41,6 +42,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/roundshape"
+        app:startIconDrawable="@drawable/person"
         >
 
         <com.google.android.material.textfield.TextInputEditText
@@ -65,13 +67,14 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/roundshape"
+        app:startIconDrawable="@drawable/email"
         >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/etMail"
-            android:inputType="text"
+            android:inputType="textEmailAddress"
             android:hint="Enter Your Email Address"
             android:textSize="20sp"
             android:textColor="@color/black"
@@ -89,13 +92,15 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
         android:background="@drawable/roundshape"
+        app:endIconMode="password_toggle"
+        app:startIconDrawable="@drawable/password"
         >
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/etPassword"
-            android:inputType="text"
+            android:inputType="textPassword"
             android:hint="Enter Your Password"
             android:textSize="20sp"
             android:textColor="@color/black"

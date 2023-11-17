@@ -30,7 +30,7 @@
         android:layout_marginTop="68dp"
         android:gravity="center"
         android:padding="10dp"
-        android:text="With T&C And View Binding"
+        android:text="With T&amp;C And View Binding"
         android:textColor="@color/yellow"
         android:textSize="30sp"
         android:textStyle="bold"
