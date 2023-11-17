@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/signin_screen"
+    tools:context=".SigInActivity">
+
+    <!--  Check User ID code here  -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        app:hintTextColor="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/roundshape"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCheckUser"
+            android:inputType="text"
+            android:hint="Enter Your User ID"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/roundshape"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--  Sign in Button code here  -->
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/yellow"
+        android:text="SIGN IN"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        />
+
+    <!--  If you don't have an account code here  -->
+    <TextView
+        android:id="@+id/txtDontHaveAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="If You Don't Have an account Click, SIGN UP"
+        android:textSize="18sp"
+        android:textColor="@color/yellow"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

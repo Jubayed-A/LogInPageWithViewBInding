@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".WelcomeActivity">
+
+    <!--  welcome txt code here  -->
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="@color/yellow"
+        />
+
+    <!--  welcome txt code here  -->
+    <TextView
+        android:id="@+id/txtNotice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="These your Details from Our Database"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="@color/yellow"
+        />
+
+    <!--  welcome txt code here  -->
+    <TextView
+        android:id="@+id/txtMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mail"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="@color/yellow"
+        />
+
+    <!--  User ID txt code here  -->
+    <TextView
+        android:id="@+id/txtUserID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User ID"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="@color/yellow"
+        />
+
+</LinearLayout>
